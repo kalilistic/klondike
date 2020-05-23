@@ -14,7 +14,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
   mode: "history",
-  base: __dirname,
+  base: __dirname + "/klondike/",
   routes
 });
 
