@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "warten auf begegnung...",
+    "questions": "fragen / ideen?",
+    "discord": "tritt dem zwietracht-server bei"
+  },
+  "encounter": {
+    "duration": "Dauer: ",
+    "dps": "Total: ",
+    "encounter": "Begegnung",
+    "damage": "Schaden",
+    "deaths": "Todesfälle"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "Todesfälle"
+  },
+  "actions": {
+    "view-encounter": "Begegnung anzeigen",
+    "reset-encounter": "Begegnung zurücksetzen",
+    "load-sample-data": "Beispieldaten laden",
+    "reset": "Zurücksetzen",
+    "save": "Speichern"
+  },
+  "views": {
+    "general-style": "Allgemeiner Stil",
+    "names": "Namensstil",
+    "numbers": "Zahlenformat",
+    "job-icons": "Job Icons",
+    "percent-bar": "Prozentbalken",
+    "advanced": "Fortgeschritten"
+  },
+  "settings": {
+    "language": "Sprache",
+    "limit-break": "Limit-Break einschließen",
+    "background-color": "Hintergrundfarbe",
+    "font-color": "Schriftfarbe",
+    "name-style": "Namensstil",
+    "style-limit-break": "Style LB",
+    "blur-names": "Unschärfennamen",
+    "abbreviate-numbers": "Abkürzungsnummern",
+    "precision": "Präzision",
+    "job-icons": "Job-Symbole aktivieren",
+    "job-icon-size": "Symbolgröße",
+    "job-icon-color": "Symbolfarbe",
+    "blur-job-icons": "Unschärfesymbole",
+    "percent-bar": "Prozentbalken aktivieren",
+    "percent-bar-mode": "Prozentbalkenmodus",
+    "percent-bar-color": "Prozentbalkenfarbe",
+    "opacity": "Deckkraft"
+  }
+}

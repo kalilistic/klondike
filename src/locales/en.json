@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "waiting for encounter...",
+    "questions": "questions / ideas?",
+    "discord": "join the discord server"
+  },
+  "encounter": {
+    "duration": "Duration: ",
+    "dps": "Total: ",
+    "encounter": "Encounter",
+    "damage": "Damage",
+    "deaths": "Deaths"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "Deaths"
+  },
+  "actions": {
+    "view-encounter": "View Encounter",
+    "reset-encounter": "Reset Encounter",
+    "load-sample-data": "Load Sample Data",
+    "reset": "Reset",
+    "save": "Save"
+  },
+  "views": {
+    "general-style": "General Style",
+    "names": "Name Style",
+    "numbers": "Number Format",
+    "job-icons": "Job Icons",
+    "percent-bar": "Percent Bar",
+    "advanced": "Advanced"
+  },
+  "settings": {
+    "language": "Language",
+    "limit-break": "Include Limit Break",
+    "background-color": "Background Color",
+    "font-color": "Font Color",
+    "name-style": "Name Style",
+    "style-limit-break": "Style LB",
+    "blur-names": "Blur Names",
+    "abbreviate-numbers": "Abbreviate Numbers",
+    "precision": "Precision",
+    "job-icons": "Enable Job icons",
+    "job-icon-size": "Icon Size",
+    "job-icon-color": "Icon Color",
+    "blur-job-icons": "Blur Icons",
+    "percent-bar": "Enable Percent Bar",
+    "percent-bar-mode": "Percent Bar Mode",
+    "percent-bar-color": "Percent Bar Color",
+    "opacity": "Opacity"
+  }
+}

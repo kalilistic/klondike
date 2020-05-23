@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "만남을 기다리는 중...",
+    "questions": "질문 / 아이디어?",
+    "discord": "Discord 서버 가입"
+  },
+  "encounter": {
+    "duration": "기간 :",
+    "dps": "총계 ",
+    "encounter": "만남",
+    "damage": "손상",
+    "deaths": "죽음"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "죽음"
+  },
+  "actions": {
+    "view-encounter": "만남보기",
+    "reset-encounter": "재설정 발생",
+    "load-sample-data": "샘플 데이터로드",
+    "reset": "재설정",
+    "save": "저장"
+  },
+  "views": {
+    "general-style": "일반 스타일",
+    "names": "이름 스타일",
+    "numbers": "숫자 형식",
+    "job-icons": "작업 아이콘",
+    "percent-bar": "퍼센트 막대",
+    "advanced": "고급"
+  },
+  "settings": {
+    "language": "언어",
+    "limit-break": "제한 브레이크 포함",
+    "background-color": "배경색",
+    "font-color": "글꼴 색상",
+    "name-style": "이름 스타일",
+    "style-limit-break": "스타일 LB",
+    "blur-names": "블러 이름",
+    "abbreviate-numbers": "축약 한 숫자",
+    "precision": "정밀도",
+    "job-icons": "작업 아이콘 사용",
+    "job-icon-size": "아이콘 크기",
+    "job-icon-color": "아이콘 색상",
+    "blur-job-icons": "블러 아이콘",
+    "percent-bar": "퍼센트 막대 사용",
+    "percent-bar-mode": "퍼센트 막대 모드",
+    "percent-bar-color": "퍼센트 막대 색상",
+    "opacity": "불투명도"
+  }
+}

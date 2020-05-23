@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "等待相遇...",
+    "questions": "问题/想法？",
+    "discord": "加入不和谐服务器"
+  },
+  "encounter": {
+    "duration": "持续时间: ",
+    "dps": "总计:",
+    "encounter": "遭遇",
+    "damage": "损伤",
+    "deaths": "死亡"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "死亡"
+  },
+  "actions": {
+    "view-encounter": "查看遭遇",
+    "reset-encounter": "重置遇到",
+    "load-sample-data": "加载样本数据”",
+    "reset": "重置",
+    "save": "保存"
+  },
+  "views": {
+    "general-style": "常规样式",
+    "names": "名称样式",
+    "numbers": "数字格式",
+    "job-icons": "工作图标",
+    "percent-bar": "百分比条",
+    "advanced": "高级"
+  },
+  "settings": {
+    "language": "语言",
+    "limit-break": "包括极限突破",
+    "background-color": "背景色",
+    "font-color": "字体颜色",
+    "name-style": "名称样式",
+    "style-limit-break": "LB型",
+    "blur-names": "模糊名称",
+    "abbreviate-numbers": "缩写词",
+    "precision": "精确",
+    "job-icons": "启用工作图标",
+    "job-icon-size": "图标大小",
+    "job-icon-color": "图标颜色",
+    "blur-job-icons": "模糊图标",
+    "percent-bar": "启用百分比栏",
+    "percent-bar-mode": "百分比条模式",
+    "percent-bar-color": "条形颜色百分比",
+    "opacity": "不透明度"
+  }
+}

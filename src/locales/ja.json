@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "出会いを待っています..",
+    "questions": "質問/アイデア？",
+    "discord": "discordサーバーに参加"
+  },
+  "encounter": {
+    "duration": "期間：",
+    "dps": "合計：",
+    "encounter": "出会い",
+    "damage": "損傷",
+    "deaths": "死"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "死"
+  },
+  "actions": {
+    "view-encounter": "ビューの遭遇",
+    "reset-encounter": "リセット遭遇",
+    "load-sample-data": "サンプルデータの読み込み",
+    "reset": "リセット",
+    "save": "保存"
+  },
+  "views": {
+    "general-style": "一般的なスタイル",
+    "names": "名前のスタイル",
+    "numbers": "数値形式",
+    "job-icons": "ジョブアイコン",
+    "percent-bar": "パーセントバー",
+    "advanced": "高度"
+  },
+  "settings": {
+    "language": "言語",
+    "limit-break": "限界ブレークを含める",
+    "background-color": "背景色",
+    "font-color": "フォント色",
+    "name-style": "名前スタイル",
+    "style-limit-break": "スタイルLB",
+    "blur-names": "ぼかし名",
+    "abbreviate-numbers": "数字を省略",
+    "precision": "精度",
+    "job-icons": "ジョブアイコン",
+    "job-icon-size": "アイコンサイズ",
+    "job-icon-color": "アイコンカラー",
+    "blur-job-icons": "ぼかしアイコン",
+    "percent-bar": "パーセントバー",
+    "percent-bar-mode": "パーセントバーモード",
+    "percent-bar-color": "パーセントバーカラー",
+    "opacity": "不透明度"
+  }
+}

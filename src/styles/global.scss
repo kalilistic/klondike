@@ -1,0 +1,44 @@
+.label {
+  font-size: 1.1rem;
+}
+
+.no-spacing {
+  padding: 0;
+  margin: 0;
+}
+
+.default-border {
+  border: 0.1em solid;
+}
+
+.no-line-break {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.align-left {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  margin-left: 0.5em;
+}
+
+.align-right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  margin-right: 0.5em;
+}
+
+.blur {
+  filter: blur(4px);
+}

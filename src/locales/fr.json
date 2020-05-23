@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "klondike"
+  },
+  "default": {
+    "waiting": "en attendant la rencontre...",
+    "questions": "questions / idées?",
+    "discord": "ejoindre le serveur discord"
+  },
+  "encounter": {
+    "duration": "durée: ",
+    "dps": "Total: ",
+    "encounter": "Rencontre",
+    "damage": "Dommage",
+    "deaths": "Décès"
+  },
+  "combatant": {
+    "dmg-pct": "DMG%",
+    "ch-pct": "CH%",
+    "dh-pct": "DH%",
+    "cdh-pct": "CDH%",
+    "heal-pct": "Heal%",
+    "over-heal-pct": "OvHeal%",
+    "deaths": "Décès"
+  },
+  "actions": {
+    "view-encounter": "Voir la rencontre",
+    "reset-encounter": "Annuler la rencontre",
+    "load-sample-data": "Charger un échantillon",
+    "reset": "Annuler",
+    "save": "Sauver"
+  },
+  "views": {
+    "general-style": "Style général",
+    "names": "Style de nom",
+    "numbers": "Format des nombres",
+    "job-icons": "Icônes de tâche",
+    "percent-bar": "Barre de pourcentage",
+    "advanced": "Avancé"
+  },
+  "settings": {
+    "language": "Langue",
+    "limit-break": "Inclure Transcendance",
+    "background-color": "Couleur de l'arrière plan",
+    "font-color": "Couleur de la police",
+    "name-style": "Style de nom",
+    "style-limit-break": "Style LB",
+    "blur-names": "Noms flous",
+    "abbreviate-numbers": "Numéros abrégés",
+    "precision": "Précision",
+    "job-icons": "Activer icônes",
+    "job-icon-size": "Taille de l'icône",
+    "job-icon-color": "Couleur de l'icône",
+    "blur-job-icons": "Icônes de flou",
+    "percent-bar": "Activer la barre",
+    "percent-bar-mode": "Mode barre-pourcentage",
+    "percent-bar-color": "Couleur de la barre",
+    "opacity": "Opacité"
+  }
+}
