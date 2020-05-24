@@ -67,12 +67,16 @@ export default {
 <style scoped lang="scss">
 .settings-menu-style {
   @extend .default-border;
+  @extend .no-spacing;
+  padding: 0.8em 1.4em 0.8em 1.4em;
+  font-size: 0.8rem;
 }
 .settings-menu-icon {
   width: 1.4em;
   margin-right: 0.4em;
 }
 .settings-menu-item {
-  min-height: 1.8em;
+  @extend .no-spacing;
+  min-height: 2em;
 }
 </style>

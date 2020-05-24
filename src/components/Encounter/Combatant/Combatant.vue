@@ -173,7 +173,7 @@ export default {
 }
 .right-info {
   @extend .label;
-  margin: 0 1.2em 0 0;
+  margin: 0 1.4em 0 0;
   text-align: right;
 }
 .job-container {

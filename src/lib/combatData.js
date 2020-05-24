@@ -47,6 +47,7 @@ export function parseCombatData(combatDataIn) {
       deaths: combatant["deaths"]
     };
     if (newCombatant.job === "") {
+      if (!newCombatant.name) continue;
       if (newCombatant.name === "Limit Break") {
         if (store.state.settings.limitBreak) {
           newCombatant.job = "LMB";

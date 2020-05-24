@@ -117,7 +117,7 @@ export default {
 }
 .footer {
   @extend .no-spacing;
-  padding: 0.2em 1.3em 0 0.1em;
+  padding: 0.2em 1.5em 0 0.1em;
 }
 .encounter-details-style {
   @extend .default-border;

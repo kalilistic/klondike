@@ -47,7 +47,7 @@ export default {
 }
 .header-menus {
   @extend .align-right;
-  margin-right: 1.4em;
+  margin-right: 1.5em;
   margin-top: 0.4em;
 }
 </style>

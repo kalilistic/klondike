@@ -50,7 +50,7 @@ export default {
 <style>
 html,
 body {
-  font-size: 13px !important;
+  font-size: 11px !important;
   font-family: Lato, serif !important;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
