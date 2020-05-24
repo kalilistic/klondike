@@ -12,8 +12,8 @@
     />
     <Slider
       label="settings.job-icon-size"
-      v-bind:min="0"
-      v-bind:max="2"
+      v-bind:min="1"
+      v-bind:max="3"
       v-bind:initial-slider-value="settings.iconSize"
       v-bind:formatter="'{value}'"
       @change="settings.iconSize = $event"

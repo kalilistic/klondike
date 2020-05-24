@@ -28,8 +28,8 @@ function initialState() {
     nameStyleId: 0,
     styleLimitBreak: false,
     blurNames: false,
-    abbreviateNumbers: true,
-    precision: 2,
+    abbreviateNumbers: false,
+    precision: 0,
     jobIcons: true,
     blurIcons: false,
     iconSize: 1,
@@ -64,21 +64,15 @@ function calcIcon(state) {
   if (state.jobIcons) {
     state._jobIconDisplay = "flex";
     switch (state.iconSize) {
-      case 0:
-        state._iconSize = "1.5em";
-        state._iconPadding = 0;
-        break;
       case 1:
-        state._iconSize = "1.8em";
-        state._iconPadding = "2em";
+        state._iconSize = "1.5em";
         break;
       case 2:
-        state._iconSize = "2em";
-        state._iconPadding = "2.5em";
+        state._iconSize = "1.8em";
         break;
       case 3:
-        state._iconSize = "2.5em";
-        state._iconPadding = "3em";
+        state._iconSize = "2em";
+        break;
     }
   } else {
     state._jobIconDisplay = "none";

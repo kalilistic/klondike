@@ -7,7 +7,7 @@ export function formatNum(number) {
   if (store.state.settings.abbreviateNumbers && number >= 1000) {
     return abbrevNum(number);
   }
-  return round(number);
+  return Number(number).toFixed(store.state.settings.precision);
 }
 
 function abbrevNum(number) {
@@ -18,19 +18,10 @@ function abbrevNum(number) {
     let size = Math.pow(10, (i + 1) * 3);
     if (size <= number) {
       number = Math.round((number * precision) / size) / precision;
-      if (number === 1000 && i < abbrev.length - 1) {
-        number = 1;
-        i++;
-      }
       number = number.toFixed(store.state.settings.precision);
       number += " " + abbrev[i];
       break;
     }
   }
   return number;
-}
-
-function round(value) {
-  let multiplier = Math.pow(10, store.state.settings.precision || 0);
-  return Math.round(value * multiplier) / multiplier;
 }

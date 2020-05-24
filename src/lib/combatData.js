@@ -21,10 +21,12 @@ export function getCombatDataModel() {
 }
 
 export function parseCombatData(combatDataIn) {
+  if (combatDataIn.Encounter.DURATION === "0") return;
+  if (combatDataIn.Encounter.damage === "0") return;
   let combatData = getCombatDataModel();
   let encounter = combatDataIn.Encounter;
   combatData.encounter.duration = encounter.duration;
-  combatData.encounter.dps = formatNum(encounter.dps);
+  combatData.encounter.dps = formatNum(encounter.encdps);
   combatData.encounter.damage = formatNum(encounter.damage);
   combatData.encounter.deaths = encounter.deaths;
 
@@ -55,12 +57,8 @@ export function parseCombatData(combatDataIn) {
           continue;
         }
       } else {
-        if (store.state.settings.pets) {
-          newCombatant.job = "PET";
-          newCombatant.name = formatPetName(newCombatant.name);
-        } else {
-          continue;
-        }
+        newCombatant.job = "PET";
+        newCombatant.name = formatPetName(newCombatant.name);
       }
     } else {
       newCombatant.name = formatName(newCombatant.name);

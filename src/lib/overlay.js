@@ -6,7 +6,9 @@ import { parseCombatData } from "./combatData";
 
 export async function addCombatDataListener(context) {
   addOverlayListener("CombatData", data => {
-    context.$store.commit("updateCombatData", parseCombatData(data));
+    let combatData = parseCombatData(data);
+    if (!combatData) return;
+    context.$store.commit("updateCombatData", combatData);
     if (context.$router.currentRoute.path === "/") {
       context.$router.push("/encounter");
     }

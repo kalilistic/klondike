@@ -1,5 +1,6 @@
+<!--suppress CssNoGenericFontName -->
 <template>
-  <div class="title">
+  <div class="header-title">
     {{ this.$t("header.title") }}
   </div>
 </template>
@@ -11,9 +12,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.title {
+.header-title {
   @extend .align-left;
   max-width: 50%;
-  font-size: 12px !important;
+  font-size: 16px !important;
+  font-family: "Lato, serif" !important;
 }
 </style>

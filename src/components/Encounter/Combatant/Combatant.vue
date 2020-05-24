@@ -5,8 +5,9 @@
         <v-menu min-width="10em">
           <template v-slot:activator="{ on }">
             <v-layout row v-on="on">
-              <v-flex xs1 class="job-container">
+              <v-flex xs1 class="job-container" :style="jobContainerStyle">
                 <div
+                  class="job-icon"
                   :style="jobIconStyle"
                   v-html="jobIcon"
                   v-bind:class="{ blur: blurIcons }"
@@ -62,9 +63,9 @@ import { getJobIcon } from "../../../lib/icons";
 export default {
   name: "Combatant",
   props: ["combatant"],
-  data() {
-    return {
-      combatantDetailsItems: [
+  computed: {
+    combatantDetailsItems() {
+      return [
         {
           title: this.combatant.name
         },
@@ -96,10 +97,8 @@ export default {
           title: this.$t("combatant.deaths"),
           value: this.combatant.deaths
         }
-      ]
-    };
-  },
-  computed: {
+      ];
+    },
     combatantDetailsStyle() {
       return {
         backgroundColor: this.$store.state.settings.backgroundColor,
@@ -141,6 +140,13 @@ export default {
       return {
         minWidth: this.$store.state.settings._iconSize
       };
+    },
+    jobContainerStyle() {
+      return {
+        padding: "0 0.4em 0 0",
+        maxWidth: "28px",
+        display: this.$store.state.settings._jobIconDisplay
+      };
     }
   }
 };
@@ -174,8 +180,9 @@ export default {
   display: flex;
   align-items: center;
   z-index: 1;
-  padding: 0.25em 1em 0 0;
-  max-width: 28px;
+}
+.job-icon {
+  padding-top: 0.4em;
 }
 .info-container {
   display: flex;

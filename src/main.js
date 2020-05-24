@@ -5,7 +5,6 @@ import store from "./store";
 import vuetify from "./plugins/vuetify";
 import i18n from "./plugins/i18n";
 import routes from "./routes/routes";
-require("typeface-lato");
 
 Vue.config.productionTip = false;
 Vue.config.devtools = false;

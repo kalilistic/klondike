@@ -9,6 +9,7 @@
 import Header from "./components/Header/Header";
 import { addCombatDataListener, startOverlay } from "./lib/overlay";
 import { setLocale } from "./lib/locale";
+require("typeface-lato");
 
 export default {
   name: "Overlay",
@@ -18,6 +19,7 @@ export default {
   computed: {
     appStyle() {
       return {
+        fontFamily: "Lato, serif",
         backgroundColor: "transparent",
         color: this.$store.state.settings.fontColor,
         fill: this.$store.state.settings.iconColor,
@@ -49,7 +51,7 @@ export default {
 html,
 body {
   font-size: 13px !important;
-  font-family: Lato, serif;
+  font-family: Lato, serif !important;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;

@@ -16,7 +16,11 @@ export const combatData = {
   },
   getters: {
     inEncounter: state => {
-      return !!state.encounter.duration;
+      return (
+        state.encounter.duration &&
+        state.combatants &&
+        state.combatants.length > 0
+      );
     }
   }
 };
