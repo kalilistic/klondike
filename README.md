@@ -22,7 +22,7 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
 
 * Track your DPS and other key combat stats.
 * Easily see your contribution with the damage% bar.
-* View additional stats by hovering over a party member.
+* View additional stats by clicking on a party member.
 * Make the overlay your own with many customization settings.
 * Collapse the overlay to save screen real estate when not in combat.
 * Support for English, French, German, Japanese, Chinese, and Korean.
@@ -45,3 +45,10 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
 2. Add a custom overlay as described <a href="https://github.com/FFXIV-ACT/setup-guide#custom-overlays">here</a> and use https://kalilistic.github.io/klondike as the URL.
 
 <img src="img/setup.png"></a>
+
+## Troubleshooting
+* **The overlay won't open.**<br>
+  Make sure you are using ngld's overlay and have everything setup as described <a href="https://github.com/FFXIV-ACT/setup-guide#readme">here</a>.
+
+* **My problem isn't listed here.**
+You can find the ACT FAQ <a href="https://gist.github.com/ngld/e2217563bbbe1750c0917217f136687d">here</a>. If you still have a problem, raise an issue or reach out on discord.
