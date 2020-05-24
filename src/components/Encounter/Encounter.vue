@@ -131,7 +131,7 @@ export default {
 }
 .detail-value {
   @extend .align-right;
-  margin-right: 1em;
+  margin-right: 1.4em;
 }
 .v-list-item:first-child {
   font-weight: bold;
