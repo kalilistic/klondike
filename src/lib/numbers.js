@@ -1,13 +1,26 @@
 import store from "../store";
 
-export function formatNum(number) {
+export function formatFloat(number) {
+  if (!number) return;
+  let float = parseFloat(number.replace(",", "."));
+  let formattedFloat = formatNum(float);
+  return Number(formattedFloat).toFixed(store.state.settings.precision);
+}
+
+export function formatInteger(number) {
+  if (!number) return;
+  let integer = parseInt(number.replace(/[,.]/g, ""));
+  return formatNum(integer);
+}
+
+function formatNum(number) {
   if (!isFinite(number)) {
     return "---";
   }
   if (store.state.settings.abbreviateNumbers && number >= 1000) {
     return abbrevNum(number);
   }
-  return Number(number).toFixed(store.state.settings.precision);
+  return number;
 }
 
 function abbrevNum(number) {

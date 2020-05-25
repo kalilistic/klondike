@@ -1,5 +1,5 @@
 import TestCombatData from "../constants/TestCombatData";
-import { formatNum } from "./numbers";
+import { formatFloat, formatInteger } from "./numbers";
 import store from "../store";
 import { formatName, formatPetName } from "./names";
 
@@ -26,8 +26,8 @@ export function parseCombatData(combatDataIn) {
   let combatData = getCombatDataModel();
   let encounter = combatDataIn.Encounter;
   combatData.encounter.duration = encounter.duration;
-  combatData.encounter.dps = formatNum(encounter.encdps);
-  combatData.encounter.damage = formatNum(encounter.damage);
+  combatData.encounter.dps = formatFloat(encounter.encdps);
+  combatData.encounter.damage = formatInteger(encounter.damage);
   combatData.encounter.deaths = encounter.deaths;
 
   let newCombatants = [];
@@ -37,7 +37,7 @@ export function parseCombatData(combatDataIn) {
       name: combatant.name,
       job: combatant.Job.toUpperCase(),
       _dps: combatant.encdps,
-      dps: formatNum(combatant.encdps),
+      dps: formatFloat(combatant.encdps),
       dmgPct: combatant["damage%"],
       chPct: combatant["crithit%"],
       dhPct: combatant["DirectHitPct"],
