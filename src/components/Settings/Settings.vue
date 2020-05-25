@@ -12,18 +12,10 @@ import { setLocale } from "../../lib/locale";
 
 export default {
   name: "Settings",
-  beforeRouteEnter: (to, from, next) => {
-    next(vm => {
-      if (!vm.$store.state.settings.collapsed) {
-        next();
-      } else {
-        next("/");
-      }
-    });
-  },
   computed: {
     settingsStyle() {
       return {
+        display: this.$store.state.settings._mainDisplay,
         backgroundColor: this.$store.state.settings.backgroundColor,
         padding: "0.6em 0 0 0.8em"
       };

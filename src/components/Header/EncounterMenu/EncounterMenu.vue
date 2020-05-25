@@ -62,6 +62,7 @@ export default {
         eval("this." + menuItem.action + "()");
       }
       if (menuItem.path) {
+        this.$store.commit("update", { collapsed: false });
         this.$router.push(menuItem.path);
       }
     },

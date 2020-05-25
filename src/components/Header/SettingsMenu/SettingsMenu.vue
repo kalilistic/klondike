@@ -58,6 +58,7 @@ export default {
   },
   methods: {
     selectMenuItem(menuItem) {
+      this.$store.commit("update", { collapsed: false });
       this.$router.push(menuItem.path);
     }
   }

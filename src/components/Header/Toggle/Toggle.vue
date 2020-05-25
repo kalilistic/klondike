@@ -11,16 +11,12 @@
 import { getCloseIcon, getOpenIcon } from "../../../lib/icons";
 export default {
   name: "Toggle",
-  data() {
-    return {
-      settings: {
-        collapsed: this.$store.state.settings.collapsed
-      }
-    };
-  },
   computed: {
+    collapsed() {
+      return this.$store.state.settings.collapsed;
+    },
     toggleIcon() {
-      if (this.settings.collapsed) {
+      if (this.collapsed) {
         return getOpenIcon();
       } else {
         return getCloseIcon();
@@ -34,9 +30,10 @@ export default {
   },
   methods: {
     toggle() {
-      this.settings.collapsed = !this.settings.collapsed;
-      this.$store.commit("update", this.settings);
-      this.$router.push("/encounter");
+      if (this.collapsed) {
+        this.$router.push("/");
+      }
+      this.$store.commit("update", { collapsed: !this.collapsed });
     }
   }
 };
