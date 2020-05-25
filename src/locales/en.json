@@ -27,6 +27,7 @@
     "view-encounter": "View Encounter",
     "reset-encounter": "Reset Encounter",
     "load-sample-data": "Load Sample Data",
+    "reset-all": "Reset All",
     "reset": "Reset",
     "save": "Save"
   },

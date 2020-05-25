@@ -23,7 +23,8 @@ export default {
   computed: {
     buttonStyle() {
       return {
-        backgroundColor: this.$store.state.settings._controlColor
+        backgroundColor: this.$store.state.settings._controlColor,
+        minWidth: "76px"
       };
     }
   },

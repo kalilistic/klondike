@@ -27,6 +27,7 @@
     "view-encounter": "Voir la rencontre",
     "reset-encounter": "Annuler la rencontre",
     "load-sample-data": "Charger un échantillon",
+    "reset-all": "Effacer tout",
     "reset": "Annuler",
     "save": "Sauver"
   },

@@ -27,6 +27,7 @@
     "view-encounter": "Begegnung anzeigen",
     "reset-encounter": "Begegnung zurücksetzen",
     "load-sample-data": "Beispieldaten laden",
+    "reset-all": "Alles zurücksetzen",
     "reset": "Zurücksetzen",
     "save": "Speichern"
   },

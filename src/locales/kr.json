@@ -27,6 +27,7 @@
     "view-encounter": "만남보기",
     "reset-encounter": "재설정 발생",
     "load-sample-data": "샘플 데이터로드",
+    "reset-all": "모두 초기화",
     "reset": "재설정",
     "save": "저장"
   },

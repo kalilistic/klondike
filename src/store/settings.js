@@ -15,6 +15,13 @@ export const settings = {
         state[key] = s[key];
       });
       calcDerivedProps(state);
+    },
+    resetAll(state) {
+      const s = initialState();
+      Object.keys(s).forEach(key => {
+        state[key] = s[key];
+      });
+      calcDerivedProps(state);
     }
   }
 };

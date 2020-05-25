@@ -17,6 +17,11 @@
       @change="settings.logging = $event"
     />
     <SettingButtons @reset="reset" @update="update" />
+    <Button
+      class="reset-all"
+      @click="resetAll"
+      label="actions.reset-all"
+    ></Button>
   </v-content>
 </template>
 
@@ -24,10 +29,12 @@
 import SettingButtons from "../../Common/SettingButtons";
 import Select from "../../Common/Select";
 import Checkbox from "../../Common/Checkbox";
+import Button from "../../Common/Button";
+import { setLocale } from "../../../lib/locale";
 
 export default {
   name: "Advanced",
-  components: { Select, Checkbox, SettingButtons },
+  components: { Button, Select, Checkbox, SettingButtons },
   data() {
     return {
       settings: {
@@ -43,6 +50,11 @@ export default {
     };
   },
   methods: {
+    resetAll() {
+      this.$store.commit("resetAll");
+      setLocale(this);
+      this.$router.push("/");
+    },
     reset() {
       this.$emit("reset", this.settings);
     },
@@ -52,3 +64,9 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">
+.reset-all {
+  margin-top: 1.5em;
+}
+</style>

@@ -27,6 +27,7 @@
     "view-encounter": "ビューの遭遇",
     "reset-encounter": "リセット遭遇",
     "load-sample-data": "サンプルデータの読み込み",
+    "reset-all": "すべてリセット",
     "reset": "リセット",
     "save": "保存"
   },
