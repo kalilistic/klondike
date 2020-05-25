@@ -124,6 +124,7 @@ export default {
   @extend .no-spacing;
   padding: 0.5em;
   font-size: 0.8rem;
+  min-width: 15em;
 }
 .encounter-details-item {
   @extend .no-spacing;
