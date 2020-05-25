@@ -56,9 +56,9 @@ export default {
       }
     });
   },
-  data() {
-    return {
-      encounterDetailsItems: [
+  computed: {
+    encounterDetailsItems() {
+      return [
         {
           title: this.$t("encounter.encounter")
         },
@@ -70,10 +70,8 @@ export default {
           title: this.$t("encounter.deaths"),
           value: this.$store.state.combatData.encounter.deaths
         }
-      ]
-    };
-  },
-  computed: {
+      ];
+    },
     encounterDetailsStyle() {
       return {
         backgroundColor: this.$store.state.settings.backgroundColor,
