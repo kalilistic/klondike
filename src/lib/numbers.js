@@ -1,26 +1,32 @@
 import store from "../store";
 
-export function formatFloat(number) {
+export function processFloat(number) {
   if (!number) return;
-  let float = parseFloat(number.replace(",", "."));
-  let formattedFloat = formatNum(float);
-  return Number(formattedFloat).toFixed(store.state.settings.precision);
+  let result = {};
+  result.sanitized = sanitizeFloat(number);
+  result.formatted = formatNum(result.sanitized, true);
+  return result;
 }
 
-export function formatInteger(number) {
+export function processInteger(number) {
   if (!number) return;
-  let integer = parseInt(number.replace(/[,.]/g, ""));
-  return formatNum(integer);
+  let result = {};
+  result.sanitized = sanitizeInteger(number);
+  result.formatted = formatNum(result.sanitized, false);
+  return result;
 }
 
-function formatNum(number) {
+function formatNum(number, updatePrecision) {
   if (!isFinite(number)) {
     return "---";
   }
   if (store.state.settings.abbreviateNumbers && number >= 1000) {
     return abbrevNum(number);
+  } else if (updatePrecision) {
+    return number.toFixed(store.state.settings.precision);
+  } else {
+    return number;
   }
-  return number;
 }
 
 function abbrevNum(number) {
@@ -37,4 +43,12 @@ function abbrevNum(number) {
     }
   }
   return number;
+}
+
+function sanitizeFloat(number) {
+  return parseFloat(number.replace(",", "."));
+}
+
+function sanitizeInteger(number) {
+  return parseInt(number.replace(/[,.]/g, ""));
 }

@@ -1,7 +1,7 @@
 import TestCombatData from "../constants/TestCombatData";
-import { formatFloat, formatInteger } from "./numbers";
 import store from "../store";
 import { formatName, formatPetName } from "./names";
+import { processFloat, processInteger } from "./numbers";
 
 export function AddTestCombatData(context) {
   context.$store.commit("updateCombatData", parseCombatData(TestCombatData));
@@ -26,18 +26,19 @@ export function parseCombatData(combatDataIn) {
   let combatData = getCombatDataModel();
   let encounter = combatDataIn.Encounter;
   combatData.encounter.duration = encounter.duration;
-  combatData.encounter.dps = formatFloat(encounter.encdps);
-  combatData.encounter.damage = formatInteger(encounter.damage);
+  combatData.encounter.dps = processFloat(encounter.encdps).formatted;
+  combatData.encounter.damage = processInteger(encounter.damage).formatted;
   combatData.encounter.deaths = encounter.deaths;
 
   let newCombatants = [];
   for (let i = 0; i < Object.values(combatDataIn.Combatant).length; i++) {
     let combatant = Object.values(combatDataIn.Combatant)[i];
+    let dps = processFloat(combatant.encdps);
     let newCombatant = {
       name: combatant.name,
       job: combatant.Job.toUpperCase(),
-      _dps: combatant.encdps,
-      dps: formatFloat(combatant.encdps),
+      _dps: dps.sanitized,
+      dps: dps.formatted,
       dmgPct: combatant["damage%"],
       chPct: combatant["crithit%"],
       dhPct: combatant["DirectHitPct"],
