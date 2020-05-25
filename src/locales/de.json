@@ -55,6 +55,7 @@
     "percent-bar": "Prozentbalken aktivieren",
     "percent-bar-mode": "Prozentbalkenmodus",
     "percent-bar-color": "Prozentbalkenfarbe",
-    "opacity": "Deckkraft"
+    "opacity": "Deckkraft",
+    "logging": "Aktiviere das Logging"
   }
 }

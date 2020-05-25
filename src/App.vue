@@ -9,6 +9,7 @@
 import Header from "./components/Header/Header";
 import { addCombatDataListener, startOverlay } from "./lib/overlay";
 import { setLocale } from "./lib/locale";
+import { log } from "./lib/logger";
 require("typeface-lato");
 
 export default {
@@ -28,6 +29,7 @@ export default {
     }
   },
   mounted() {
+    log("klondike mounted");
     if (this.$router.currentRoute.path !== "/") {
       this.$router.push("/");
     }

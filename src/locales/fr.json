@@ -55,6 +55,7 @@
     "percent-bar": "Activer la barre",
     "percent-bar-mode": "Mode barre-pourcentage",
     "percent-bar-color": "Couleur de la barre",
-    "opacity": "Opacité"
+    "opacity": "Opacité",
+    "logging": "Activer la journalisation"
   }
 }

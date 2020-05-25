@@ -11,6 +11,11 @@
       v-bind:initialCheckboxValue="settings.limitBreak"
       @change="settings.limitBreak = $event"
     />
+    <Checkbox
+      label="settings.logging"
+      v-bind:initialCheckboxValue="settings.logging"
+      @change="settings.logging = $event"
+    />
     <SettingButtons @reset="reset" @update="update" />
   </v-content>
 </template>
@@ -29,7 +34,8 @@ export default {
         languageId: this.$store.state.settings.languageId,
         backgroundColor: this.$store.state.settings.backgroundColor,
         fontColor: this.$store.state.settings.fontColor,
-        limitBreak: this.$store.state.settings.limitBreak
+        limitBreak: this.$store.state.settings.limitBreak,
+        logging: this.$store.state.settings.logging
       },
       validValues: {
         languages: this.$store.state.validValues.languages

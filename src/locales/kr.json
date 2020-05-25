@@ -55,6 +55,7 @@
     "percent-bar": "퍼센트 막대 사용",
     "percent-bar-mode": "퍼센트 막대 모드",
     "percent-bar-color": "퍼센트 막대 색상",
-    "opacity": "불투명도"
+    "opacity": "불투명도",
+    "logging": "로깅을 사용하도록 설정"
   }
 }

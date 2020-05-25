@@ -38,7 +38,8 @@ function initialState() {
     percentBarMode: 1,
     percentBarColor: "#12676c",
     languageId: 0,
-    limitBreak: true
+    limitBreak: true,
+    logging: false
   };
   calcDerivedProps(state);
   return state;

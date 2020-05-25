@@ -55,6 +55,7 @@
     "percent-bar": "Enable Percent Bar",
     "percent-bar-mode": "Percent Bar Mode",
     "percent-bar-color": "Percent Bar Color",
-    "opacity": "Opacity"
+    "opacity": "Opacity",
+    "logging": "Enable Logging"
   }
 }

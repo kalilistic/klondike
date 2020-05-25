@@ -55,6 +55,7 @@
     "percent-bar": "启用百分比栏",
     "percent-bar-mode": "百分比条模式",
     "percent-bar-color": "条形颜色百分比",
-    "opacity": "不透明度"
+    "opacity": "不透明度",
+    "logging": "启用记录"
   }
 }
