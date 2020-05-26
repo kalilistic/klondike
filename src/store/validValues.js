@@ -10,6 +10,12 @@ export const validValues = {
   getters: {
     languages: state => {
       return state.languages;
+    },
+    digitSeps: state => {
+      return state.digitSeps;
+    },
+    decimalSeps: state => {
+      return state.decimalSeps;
     }
   }
 };
@@ -36,6 +42,15 @@ function loadValidValues() {
   state.percentBarModes = [
     { id: 0, name: "Encounter" },
     { id: 1, name: "Highest DPS" }
+  ];
+  state.digitSeps = [
+    { id: 0, name: "None" },
+    { id: 1, name: "Period", sep: "." },
+    { id: 2, name: "Comma", sep: "," }
+  ];
+  state.decimalSeps = [
+    { id: 0, name: "Period", sep: "." },
+    { id: 1, name: "Comma", sep: "," }
   ];
   return state;
 }

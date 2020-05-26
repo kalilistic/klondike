@@ -57,6 +57,8 @@
     "percent-bar-mode": "Percent Bar Mode",
     "percent-bar-color": "Percent Bar Color",
     "opacity": "Opacity",
-    "logging": "Enable Logging"
+    "logging": "Enable Logging",
+    "digit-sep": "Digit Separator",
+    "decimal-sep": "Decimal Separator"
   }
 }

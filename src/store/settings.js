@@ -46,7 +46,9 @@ function initialState() {
     percentBarColor: "#12676c",
     languageId: 0,
     limitBreak: true,
-    logging: false
+    logging: false,
+    digitSepId: 2,
+    decimalSepId: 0
   };
   calcDerivedProps(state);
   return state;
