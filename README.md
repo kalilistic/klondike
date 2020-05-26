@@ -31,7 +31,6 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
 
 * <a href="https://github.com/EQAditu/AdvancedCombatTracker">Advanced Combat Tracker</a>
 * <a href="https://github.com/ravahn/FFXIV_ACT_Plugin">FFXIV_ACT_Plugin</a>
-* <a href="https://github.com/EQAditu/AdvancedCombatTracker">Advanced Combat Tracker</a>
 * <a href="https://github.com/ngld/OverlayPlugin">ngld's OverlayPlugin</a>
 
 **Notes**
