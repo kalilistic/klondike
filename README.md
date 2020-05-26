@@ -48,10 +48,18 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
 
 ## Troubleshooting
 * **The overlay won't open.**<br>
-  Make sure you are using ngld's overlay and have everything setup as described <a href="https://github.com/FFXIV-ACT/setup-guide#readme">here</a>.
+  Make sure you are using the most recent version of ngld's overlay plugin.
 
-* **The overlay is too small / big.**<br>
+* **The overlay window is too small / big.**<br>
+  You can click and drag the bottom right corner to resize the window.
+  
+* **The overlay text is too small / big.**<br>
   In your overlay plugin tab, select klondike, and then Advanced. You'll find a "Zoom" slider you can adjust to fit your preference.
   
+* **No overlays are working for me - not just klondike.**<br>
+  Review the <a href="https://gist.github.com/ngld/e2217563bbbe1750c0917217f136687d">ACT FAQ</a> and <a href="https://github.com/FFXIV-ACT/setup-guide#readme">ACT Setup Guide</a>.
+
 * **My problem isn't listed here.**<br>
-  You can find the ACT FAQ <a href="https://gist.github.com/ngld/e2217563bbbe1750c0917217f136687d">here</a>. If you still have a problem, raise an issue or reach out on discord.
+  Reach out on discord or raise a github issue.
+  
+  
