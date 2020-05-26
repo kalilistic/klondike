@@ -57,6 +57,8 @@
     "percent-bar-mode": "Prozentbalkenmodus",
     "percent-bar-color": "Prozentbalkenfarbe",
     "opacity": "Deckkraft",
-    "logging": "Aktiviere das Logging"
+    "logging": "Aktiviere das Logging",
+    "digit-sep": "Ziffernabscheider",
+    "decimal-sep": "Dezimaltrennzeichen"
   }
 }

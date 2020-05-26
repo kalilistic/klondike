@@ -57,6 +57,8 @@
     "percent-bar-mode": "Mode barre-pourcentage",
     "percent-bar-color": "Couleur de la barre",
     "opacity": "Opacité",
-    "logging": "Activer la journalisation"
+    "logging": "Activer la journalisation",
+    "digit-sep": "Séparateur de chiffres",
+    "decimal-sep": "Séparateur décimal"
   }
 }

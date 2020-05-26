@@ -57,6 +57,8 @@
     "percent-bar-mode": "百分比条模式",
     "percent-bar-color": "条形颜色百分比",
     "opacity": "不透明度",
-    "logging": "启用记录"
+    "logging": "启用记录",
+    "digit-sep": "数字分隔符",
+    "decimal-sep": "小数点分隔符"
   }
 }

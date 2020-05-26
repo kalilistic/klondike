@@ -57,6 +57,8 @@
     "percent-bar-mode": "퍼센트 막대 모드",
     "percent-bar-color": "퍼센트 막대 색상",
     "opacity": "불투명도",
-    "logging": "로깅을 사용하도록 설정"
+    "logging": "로깅을 사용하도록 설정",
+    "digit-sep": "숫자 분리기",
+    "decimal-sep": "소수 구분 기호"
   }
 }
