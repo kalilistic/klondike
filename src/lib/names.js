@@ -20,9 +20,13 @@ export function formatName(name) {
   }
 }
 
+export function isPet(name) {
+  let ownerName = name.match(/\((.*)\)/);
+  if (ownerName) return name;
+}
+
 export function formatPetName(name) {
   let ownerName = name.match(/\((.*)\)/);
-  if (!ownerName) return name;
   ownerName = ownerName.pop();
   let ownerNameFormatted = formatName(ownerName);
   return name.replace(ownerName, ownerNameFormatted);

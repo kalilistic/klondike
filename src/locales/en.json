@@ -59,6 +59,8 @@
     "opacity": "Opacity",
     "logging": "Enable Logging",
     "digit-sep": "Digit Separator",
-    "decimal-sep": "Decimal Separator"
+    "decimal-sep": "Decimal Separator",
+    "include-pets": "Include Pets",
+    "include-jobless": "Include Jobless"
   }
 }

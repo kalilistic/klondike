@@ -59,6 +59,8 @@
     "opacity": "不透明度",
     "logging": "启用记录",
     "digit-sep": "数字分隔符",
-    "decimal-sep": "小数点分隔符"
+    "decimal-sep": "小数点分隔符",
+    "include-pets": "包括宠物",
+    "include-jobless": "包括失业"
   }
 }

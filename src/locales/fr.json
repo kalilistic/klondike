@@ -59,6 +59,8 @@
     "opacity": "Opacité",
     "logging": "Activer la journalisation",
     "digit-sep": "Séparateur de chiffres",
-    "decimal-sep": "Séparateur décimal"
+    "decimal-sep": "Séparateur décimal",
+    "include-pets": "Inclure les animaux",
+    "include-jobless": "Inclure les chômeurs"
   }
 }

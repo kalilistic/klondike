@@ -1,6 +1,6 @@
 import TestCombatData from "../constants/TestCombatData";
 import store from "../store";
-import { formatName, formatPetName } from "./names";
+import { formatName, formatPetName, isPet } from "./names";
 import { processFloat, processInteger } from "./numbers";
 
 export function AddTestCombatData(context) {
@@ -58,9 +58,17 @@ export function parseCombatData(combatDataIn) {
         } else {
           continue;
         }
+      } else if (isPet(newCombatant.name)) {
+        if (store.state.settings.includePets) {
+          newCombatant.job = "PET";
+          newCombatant.name = formatPetName(newCombatant.name);
+        } else {
+          continue;
+        }
+      } else if (store.state.settings.includeJobless) {
+        newCombatant.job = "NON";
       } else {
-        newCombatant.job = "PET";
-        newCombatant.name = formatPetName(newCombatant.name);
+        continue;
       }
     } else {
       newCombatant.name = formatName(newCombatant.name);

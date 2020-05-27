@@ -48,7 +48,9 @@ function initialState() {
     limitBreak: true,
     logging: false,
     digitSepId: 2,
-    decimalSepId: 0
+    decimalSepId: 0,
+    includePets: false,
+    includeJobless: false
   };
   calcDerivedProps(state);
   return state;

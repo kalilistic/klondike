@@ -59,6 +59,8 @@
     "opacity": "불투명도",
     "logging": "로깅을 사용하도록 설정",
     "digit-sep": "숫자 분리기",
-    "decimal-sep": "소수 구분 기호"
+    "decimal-sep": "소수 구분 기호",
+    "include-pets": "애완 동물 포함",
+    "include-jobless": "실업자 포함"
   }
 }

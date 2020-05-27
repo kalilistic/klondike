@@ -59,6 +59,8 @@
     "opacity": "Deckkraft",
     "logging": "Aktiviere das Logging",
     "digit-sep": "Ziffernabscheider",
-    "decimal-sep": "Dezimaltrennzeichen"
+    "decimal-sep": "Dezimaltrennzeichen",
+    "include-pets": "Haustiere einschließen",
+    "include-jobless": "Arbeitslose einbeziehen"
   }
 }
