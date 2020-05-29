@@ -61,6 +61,8 @@
     "digit-sep": "Digit Separator",
     "decimal-sep": "Decimal Separator",
     "include-pets": "Include Pets",
-    "include-jobless": "Include Jobless"
+    "include-jobless": "Include Jobless",
+    "always-show-splash": "Always Show Splash",
+    "show-discord": "Show Discord Info"
   }
 }

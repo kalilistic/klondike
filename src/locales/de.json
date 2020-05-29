@@ -61,6 +61,8 @@
     "digit-sep": "Ziffernabscheider",
     "decimal-sep": "Dezimaltrennzeichen",
     "include-pets": "Haustiere einschließen",
-    "include-jobless": "Arbeitslose einbeziehen"
+    "include-jobless": "Arbeitslose einbeziehen",
+    "always-show-splash": "Immer Willkommen zeigen",
+    "show-discord": "DISCORD Info anzeigen"
   }
 }

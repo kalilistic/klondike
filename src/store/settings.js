@@ -50,7 +50,10 @@ function initialState() {
     digitSepId: 2,
     decimalSepId: 0,
     includePets: false,
-    includeJobless: false
+    includeJobless: false,
+    alwaysShowSplash: false,
+    latestSplashSeen: 0,
+    showDiscord: true
   };
   calcDerivedProps(state);
   return state;

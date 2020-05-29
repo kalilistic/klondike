@@ -61,6 +61,8 @@
     "digit-sep": "Séparateur de chiffres",
     "decimal-sep": "Séparateur décimal",
     "include-pets": "Inclure les animaux",
-    "include-jobless": "Inclure les chômeurs"
+    "include-jobless": "Inclure les chômeurs",
+    "always-show-splash": "Toujours montrer la bienvenue",
+    "show-discord": "Afficher les informations DISCORD"
   }
 }

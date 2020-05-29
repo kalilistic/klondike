@@ -23,6 +23,16 @@
       @change="settings.includeJobless = $event"
     />
     <Checkbox
+      label="settings.always-show-splash"
+      v-bind:initialCheckboxValue="settings.alwaysShowSplash"
+      @change="settings.alwaysShowSplash = $event"
+    />
+    <Checkbox
+      label="settings.show-discord"
+      v-bind:initialCheckboxValue="settings.showDiscord"
+      @change="settings.showDiscord = $event"
+    />
+    <Checkbox
       label="settings.logging"
       v-bind:initialCheckboxValue="settings.logging"
       @change="settings.logging = $event"
@@ -55,6 +65,8 @@ export default {
         limitBreak: this.$store.state.settings.limitBreak,
         includePets: this.$store.state.settings.includePets,
         includeJobless: this.$store.state.settings.includeJobless,
+        alwaysShowSplash: this.$store.state.settings.alwaysShowSplash,
+        showDiscord: this.$store.state.settings.showDiscord,
         logging: this.$store.state.settings.logging
       },
       validValues: {

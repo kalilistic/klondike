@@ -61,6 +61,8 @@
     "digit-sep": "桁区切り",
     "decimal-sep": "小数点区切り",
     "include-pets": "ペットを含む",
-    "include-jobless": "失業を含む"
+    "include-jobless": "失業を含む",
+    "always-show-splash": "常にウェルカムを表示",
+    "show-discord": "DISCORD情報を表示"
   }
 }

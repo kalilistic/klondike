@@ -1,32 +1,45 @@
 <template>
   <v-content class="default" :style="defaultStyle">
-    <div class="waiting">{{ this.$t("default.waiting") }}</div>
-    <div class="questions feedback">{{ this.$t("default.questions") }}</div>
-    <div class="link feedback" :style="link" @click="openDiscord">
-      {{ this.$t("default.discord") }}
-    </div>
+    <Splash class="default-section" v-show="showSplash" />
+    <Waiting class="default-section" />
+    <Discord class="default-section" v-show="showDiscord" />
   </v-content>
 </template>
 
 <script>
+import Splash from "./Splash/Splash";
+import Discord from "./Discord/Discord";
+import SplashMessage from "../../constants/Splash";
+import Waiting from "./Waiting/Waiting";
 export default {
   name: "Default",
+  components: { Discord, Waiting, Splash },
   computed: {
-    link() {
-      return {
-        color: this.$store.state.settings.fontColor
-      };
-    },
     defaultStyle() {
       return {
         display: this.$store.state.settings._mainDisplay,
         backgroundColor: this.$store.state.settings.backgroundColor
       };
+    },
+    showSplash() {
+      if (
+        this.$store.state.settings.alwaysShowSplash ||
+        this.$store.state.settings.latestSplashSeen < SplashMessage.version
+      ) {
+        this.updateSplash();
+        return true;
+      }
+      return false;
+    },
+    showDiscord() {
+      return this.$store.state.settings.showDiscord;
     }
   },
   methods: {
-    openDiscord() {
-      window.open("https://discord.gg/ftn4k7x", "_blank");
+    updateSplash() {
+      this.$store.commit("update", {
+        latestSplashSeen: SplashMessage.version
+      });
     }
   },
   mounted() {
@@ -42,20 +55,7 @@ export default {
   @extend .no-line-break;
   border-top: 0;
 }
-.waiting {
-  font-size: 1.25rem;
+.default-section {
   margin-bottom: 1.5em;
-}
-.questions {
-  margin-bottom: 0.25em;
-}
-.link {
-  text-decoration: underline;
-  cursor: pointer;
-  mix-blend-mode: difference;
-  filter: brightness(90%);
-}
-.feedback {
-  font-size: 0.9rem;
 }
 </style>

@@ -61,6 +61,8 @@
     "digit-sep": "숫자 분리기",
     "decimal-sep": "소수 구분 기호",
     "include-pets": "애완 동물 포함",
-    "include-jobless": "실업자 포함"
+    "include-jobless": "실업자 포함",
+    "always-show-splash": "항상 환영 표시",
+    "show-discord": "DISCORD 정보 표시"
   }
 }
