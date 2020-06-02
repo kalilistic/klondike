@@ -37,6 +37,7 @@
     "numbers": "숫자 형식",
     "job-icons": "작업 아이콘",
     "percent-bar": "퍼센트 막대",
+    "percent-bar-role": "퍼센트 바 (역할)",
     "advanced": "고급"
   },
   "settings": {
@@ -63,6 +64,10 @@
     "include-pets": "애완 동물 포함",
     "include-jobless": "실업자 포함",
     "always-show-splash": "항상 환영 표시",
-    "show-discord": "DISCORD 정보 표시"
+    "show-discord": "DISCORD 정보 표시",
+    "percent-bar-role": "역할별로 막대 색상 사용",
+    "percent-bar-color-tank": "TANK 바 색상",
+    "percent-bar-color-heal": "HEALER 바 색상",
+    "percent-bar-color-dps": "DPS 바 색상"
   }
 }

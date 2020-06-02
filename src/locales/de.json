@@ -37,6 +37,7 @@
     "numbers": "Zahlenformat",
     "job-icons": "Job Icons",
     "percent-bar": "Prozentbalken",
+    "percent-bar-role": "Prozentbalken (Rolle)",
     "advanced": "Fortgeschritten"
   },
   "settings": {
@@ -63,6 +64,10 @@
     "include-pets": "Haustiere einschließen",
     "include-jobless": "Arbeitslose einbeziehen",
     "always-show-splash": "Immer Willkommen zeigen",
-    "show-discord": "DISCORD Info anzeigen"
+    "show-discord": "DISCORD Info anzeigen",
+    "percent-bar-role": "Aktivieren Sie Balkenfarben nach Rolle",
+    "percent-bar-color-tank": "Tank Balkenfarbe",
+    "percent-bar-color-heal": "Healer Balkenfarbe",
+    "percent-bar-color-dps": "DPS Balkenfarbe"
   }
 }

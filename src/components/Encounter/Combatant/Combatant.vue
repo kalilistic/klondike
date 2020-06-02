@@ -126,7 +126,7 @@ export default {
     percentOverlayStyle() {
       return {
         width: this.combatant.percent,
-        backgroundColor: this.$store.state.settings.percentBarColor,
+        backgroundColor: this.getBarColor(this.combatant.role),
         display: this.$store.state.settings._percentBar
       };
     },
@@ -147,6 +147,22 @@ export default {
         maxWidth: "28px",
         display: this.$store.state.settings._jobIconDisplay
       };
+    }
+  },
+  methods: {
+    getBarColor(role) {
+      if (this.$store.state.settings.percentBarRole) {
+        if (role === "DPS") {
+          return this.$store.state.settings.percentBarColorDps;
+        } else if (role === "HEALER") {
+          return this.$store.state.settings.percentBarColorHeal;
+        } else if (role === "TANK") {
+          return this.$store.state.settings.percentBarColorTank;
+        } else {
+          return this.$store.state.settings.percentBarColor;
+        }
+      }
+      return this.$store.state.settings.percentBarColor;
     }
   }
 };

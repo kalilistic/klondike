@@ -13,7 +13,7 @@
           class="color-picker"
           :style="colorPickerStyle"
           hide-inputs
-          canvas-height="20"
+          canvas-height="15"
           width="160"
           mode="hexa"
           @input="updateColor"

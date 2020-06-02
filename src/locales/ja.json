@@ -37,6 +37,7 @@
     "numbers": "数値形式",
     "job-icons": "ジョブアイコン",
     "percent-bar": "パーセントバー",
+    "percent-bar-role": "パーセントバー（ロール）",
     "advanced": "高度"
   },
   "settings": {
@@ -63,6 +64,10 @@
     "include-pets": "ペットを含む",
     "include-jobless": "失業を含む",
     "always-show-splash": "常にウェルカムを表示",
-    "show-discord": "DISCORD情報を表示"
+    "show-discord": "DISCORD情報を表示",
+    "percent-bar-role": "役割ごとにバーの色を有効にする",
+    "percent-bar-color-tank": "TANKバーの色",
+    "percent-bar-color-heal": "HEALERバーの色",
+    "percent-bar-color-dps": "DPSバーの色"
   }
 }

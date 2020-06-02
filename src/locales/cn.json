@@ -37,6 +37,7 @@
     "numbers": "数字格式",
     "job-icons": "工作图标",
     "percent-bar": "百分比条",
+    "percent-bar-role": "百分比条（角色）",
     "advanced": "高级"
   },
   "settings": {
@@ -63,6 +64,10 @@
     "include-pets": "包括宠物",
     "include-jobless": "包括失业",
     "always-show-splash": "一律显示欢迎词",
-    "show-discord": "显示DISCORD信息"
+    "show-discord": "显示DISCORD信息",
+    "percent-bar-role": "按角色启用条形颜色",
+    "percent-bar-color-tank": "TANK酒吧颜色",
+    "percent-bar-color-heal": "HEALER酒吧颜色",
+    "percent-bar-color-dps": "DPS条形颜色"
   }
 }

@@ -31,6 +31,7 @@ export function parseCombatData(combatDataIn) {
   combatData.encounter.deaths = encounter.deaths;
 
   let newCombatants = [];
+  let jobDetails = store.getters.jobDetails;
   for (let i = 0; i < Object.values(combatDataIn.Combatant).length; i++) {
     let combatant = Object.values(combatDataIn.Combatant)[i];
     let dps = processFloat(combatant.encdps);
@@ -66,12 +67,13 @@ export function parseCombatData(combatDataIn) {
           continue;
         }
       } else if (store.state.settings.includeJobless) {
-        newCombatant.job = "NON";
+        newCombatant.job = "MOB";
       } else {
         continue;
       }
     } else {
       newCombatant.name = formatName(newCombatant.name);
+      newCombatant.role = jobDetails[newCombatant.job].role;
     }
     newCombatants.push(newCombatant);
   }

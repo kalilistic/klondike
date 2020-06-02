@@ -7,6 +7,7 @@ import Names from "../components/Settings/Names/Names";
 import JobIcons from "../components/Settings/JobIcons/JobIcons";
 import PercentBar from "../components/Settings/PercentBar/PercentBar";
 import Advanced from "../components/Settings/Advanced/Advanced";
+import PercentBarRole from "../components/Settings/PercentBarRole/PercentBarRole";
 
 const routes = [
   {
@@ -40,6 +41,10 @@ const routes = [
       {
         path: "percent-bar",
         component: PercentBar
+      },
+      {
+        path: "percent-bar-role",
+        component: PercentBarRole
       },
       {
         path: "advanced",

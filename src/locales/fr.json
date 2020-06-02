@@ -37,6 +37,7 @@
     "numbers": "Format des nombres",
     "job-icons": "Icônes de tâche",
     "percent-bar": "Barre de pourcentage",
+    "percent-bar-role": "Barre de pourcentage (rôle)",
     "advanced": "Avancé"
   },
   "settings": {
@@ -63,6 +64,10 @@
     "include-pets": "Inclure les animaux",
     "include-jobless": "Inclure les chômeurs",
     "always-show-splash": "Toujours montrer la bienvenue",
-    "show-discord": "Afficher les informations DISCORD"
+    "show-discord": "Afficher les informations DISCORD",
+    "percent-bar-role": "Activer les couleurs des barres par rôle",
+    "percent-bar-color-tank": "Couleur de barre Tank",
+    "percent-bar-color-heal": "Couleur de barre Healer",
+    "percent-bar-color-dps": "Couleur de barre DPS"
   }
 }

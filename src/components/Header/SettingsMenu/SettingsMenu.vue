@@ -36,6 +36,10 @@ export default {
         { title: this.$t("views.job-icons"), path: "/settings/job-icons" },
         { title: this.$t("views.percent-bar"), path: "/settings/percent-bar" },
         {
+          title: this.$t("views.percent-bar-role"),
+          path: "/settings/percent-bar-role"
+        },
+        {
           title: this.$t("views.advanced"),
           path: "/settings/advanced"
         }

@@ -8,6 +8,9 @@ export const settings = {
         state[key] = newState[key];
       });
       calcDerivedProps(state);
+      if ("percentBarRole" in newState) {
+        updateDefaultPercentBarColor(state);
+      }
     },
     reset(state, newSettings) {
       const s = initialState();
@@ -15,6 +18,9 @@ export const settings = {
         state[key] = s[key];
       });
       calcDerivedProps(state);
+      if ("percentBarRole" in newSettings) {
+        updateDefaultPercentBarColor(state);
+      }
     },
     resetAll(state) {
       const s = initialState();
@@ -22,6 +28,7 @@ export const settings = {
         state[key] = s[key];
       });
       calcDerivedProps(state);
+      updateDefaultPercentBarColor(state);
     }
   }
 };
@@ -43,7 +50,6 @@ function initialState() {
     iconColor: "#ebffff",
     percentBar: true,
     percentBarMode: 1,
-    percentBarColor: "#12676c",
     languageId: 0,
     limitBreak: true,
     logging: false,
@@ -53,9 +59,14 @@ function initialState() {
     includeJobless: false,
     alwaysShowSplash: false,
     latestSplashSeen: 0,
-    showDiscord: true
+    showDiscord: true,
+    percentBarRole: false,
+    percentBarColorTank: "#2d3a80",
+    percentBarColorHeal: "#346624",
+    percentBarColorDps: "#732828"
   };
   calcDerivedProps(state);
+  updateDefaultPercentBarColor(state);
   return state;
 }
 
@@ -107,5 +118,13 @@ function calcCollapsed(state) {
     state._mainDisplay = "none";
   } else {
     state._mainDisplay = "flex";
+  }
+}
+
+function updateDefaultPercentBarColor(state) {
+  if (state.percentBarRole) {
+    state.percentBarColor = "#484C4E";
+  } else {
+    state.percentBarColor = "#12676c";
   }
 }
