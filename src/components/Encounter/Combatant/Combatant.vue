@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import { getJobIcon } from "../../../lib/icons";
+import { DPS, HEALER, TANK } from "../../../constants/Roles";
 
 export default {
   name: "Combatant",
@@ -112,7 +112,7 @@ export default {
       };
     },
     jobIcon() {
-      return getJobIcon(this.combatant.job);
+      return this.combatant.icon;
     },
     dmgPct() {
       return this.combatant.dmgPct;
@@ -152,11 +152,11 @@ export default {
   methods: {
     getBarColor(role) {
       if (this.$store.state.settings.percentBarRole) {
-        if (role === "DPS") {
+        if (role === DPS) {
           return this.$store.state.settings.percentBarColorDps;
-        } else if (role === "HEALER") {
+        } else if (role === HEALER) {
           return this.$store.state.settings.percentBarColorHeal;
-        } else if (role === "TANK") {
+        } else if (role === TANK) {
           return this.$store.state.settings.percentBarColorTank;
         } else {
           return this.$store.state.settings.percentBarColor;

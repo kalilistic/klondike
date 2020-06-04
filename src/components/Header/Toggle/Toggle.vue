@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import { getCloseIcon, getOpenIcon } from "../../../lib/icons";
 export default {
   name: "Toggle",
   computed: {
@@ -17,9 +16,9 @@ export default {
     },
     toggleIcon() {
       if (this.collapsed) {
-        return getOpenIcon();
+        return this.$store.getters.openIcon;
       } else {
-        return getCloseIcon();
+        return this.$store.getters.closeIcon;
       }
     },
     toggleIconStyle() {

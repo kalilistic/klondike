@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import { getMenuIcon } from "../../../lib/icons";
 import { AddTestCombatData } from "../../../lib/combatData";
 
 export default {
@@ -42,7 +41,7 @@ export default {
       ];
     },
     encounterMenuIcon() {
-      return getMenuIcon();
+      return this.$store.getters.menuIcon;
     },
     encounterMenuStyle() {
       return {

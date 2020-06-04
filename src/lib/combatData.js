@@ -2,6 +2,8 @@ import TestCombatData from "../constants/TestCombatData";
 import store from "../store";
 import { formatName, formatPetName, isPet } from "./names";
 import { processFloat, processInteger } from "./numbers";
+import { log } from "./logger";
+import { LMB, MIS, MOB, PET } from "../constants/Jobs";
 
 export function AddTestCombatData(context) {
   context.$store.commit("updateCombatData", parseCombatData(TestCombatData));
@@ -31,7 +33,6 @@ export function parseCombatData(combatDataIn) {
   combatData.encounter.deaths = encounter.deaths;
 
   let newCombatants = [];
-  let jobDetails = store.getters.jobDetails;
   for (let i = 0; i < Object.values(combatDataIn.Combatant).length; i++) {
     let combatant = Object.values(combatDataIn.Combatant)[i];
     let dps = processFloat(combatant.encdps);
@@ -52,7 +53,7 @@ export function parseCombatData(combatDataIn) {
       if (!newCombatant.name) continue;
       if (newCombatant.name === "Limit Break") {
         if (store.state.settings.limitBreak) {
-          newCombatant.job = "LMB";
+          newCombatant.job = LMB;
           if (store.state.settings.styleLimitBreak) {
             newCombatant.name = formatName(newCombatant.name);
           }
@@ -61,20 +62,28 @@ export function parseCombatData(combatDataIn) {
         }
       } else if (isPet(newCombatant.name)) {
         if (store.state.settings.includePets) {
-          newCombatant.job = "PET";
+          newCombatant.job = PET;
           newCombatant.name = formatPetName(newCombatant.name);
         } else {
           continue;
         }
       } else if (store.state.settings.includeJobless) {
-        newCombatant.job = "MOB";
+        newCombatant.job = MOB;
       } else {
         continue;
       }
     } else {
       newCombatant.name = formatName(newCombatant.name);
-      newCombatant.role = jobDetails[newCombatant.job].role;
     }
+    let jobDetails = store.getters.jobDetails;
+    let jobDetail = jobDetails[newCombatant.job];
+    if (!jobDetail) {
+      log("Can't find job.", newCombatant);
+      newCombatant.job = MIS;
+      jobDetail = jobDetails[newCombatant.job];
+    }
+    newCombatant.role = jobDetail.role;
+    newCombatant.icon = jobDetail.icon;
     newCombatants.push(newCombatant);
   }
   let percentMode = store.state.settings.percentBarMode;

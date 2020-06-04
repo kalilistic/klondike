@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import { getSettingsIcon } from "../../../lib/icons";
 export default {
   name: "SettingsMenu",
   computed: {
@@ -46,7 +45,7 @@ export default {
       ];
     },
     settingsMenuIcon() {
-      return getSettingsIcon();
+      return this.$store.getters.settingsIcon;
     },
     settingsMenuStyle() {
       return {
