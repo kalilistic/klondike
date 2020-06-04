@@ -29,6 +29,9 @@ export const settings = {
       });
       calcDerivedProps(state);
       updateDefaultPercentBarColor(state);
+    },
+    updatePrimaryPlayer(state, primaryPlayer) {
+      state.primaryPlayer = primaryPlayer;
     }
   }
 };
@@ -60,6 +63,9 @@ function initialState() {
     alwaysShowSplash: false,
     latestSplashSeen: 0,
     showDiscord: true,
+    primaryPlayer: String.empty,
+    percentBarYou: false,
+    percentBarColorYou: "#42126c",
     percentBarRole: false,
     percentBarColorTank: "#2d3a80",
     percentBarColorHeal: "#346624",

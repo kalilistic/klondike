@@ -37,6 +37,7 @@
     "numbers": "Format des nombres",
     "job-icons": "Icônes de tâche",
     "percent-bar": "Barre de pourcentage",
+    "percent-bar-you": "Barre de pourcentage (VOUS)",
     "percent-bar-role": "Barre de pourcentage (rôle)",
     "advanced": "Avancé"
   },
@@ -65,6 +66,8 @@
     "include-jobless": "Inclure les chômeurs",
     "always-show-splash": "Toujours montrer la bienvenue",
     "show-discord": "Afficher les informations DISCORD",
+    "percent-bar-you": "Activez la couleur de votre barre",
+    "percent-bar-color-you": "Votre couleur de barre",
     "percent-bar-role": "Activer les couleurs des barres par rôle",
     "percent-bar-color-tank": "Couleur de barre Tank",
     "percent-bar-color-heal": "Couleur de barre Healer",

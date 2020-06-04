@@ -7,7 +7,11 @@
 
 <script>
 import Header from "./components/Header/Header";
-import { addCombatDataListener, startOverlay } from "./lib/overlay";
+import {
+  addCombatDataListener,
+  addPrimaryPlayerListener,
+  startOverlay
+} from "./lib/overlay";
 import { setLocale } from "./lib/locale";
 import { log } from "./lib/logger";
 require("typeface-lato");
@@ -34,6 +38,7 @@ export default {
       this.$router.push("/");
     }
     addCombatDataListener(this);
+    addPrimaryPlayerListener(this);
     startOverlay();
     setLocale(this);
   }

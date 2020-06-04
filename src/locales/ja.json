@@ -37,6 +37,7 @@
     "numbers": "数値形式",
     "job-icons": "ジョブアイコン",
     "percent-bar": "パーセントバー",
+    "percent-bar-you": "パーセントバー（YOU）",
     "percent-bar-role": "パーセントバー（ロール）",
     "advanced": "高度"
   },
@@ -65,6 +66,8 @@
     "include-jobless": "失業を含む",
     "always-show-splash": "常にウェルカムを表示",
     "show-discord": "DISCORD情報を表示",
+    "percent-bar-you": "バーの色を有効にする",
+    "percent-bar-color-you": "あなたのバーの色",
     "percent-bar-role": "役割ごとにバーの色を有効にする",
     "percent-bar-color-tank": "TANKバーの色",
     "percent-bar-color-heal": "HEALERバーの色",

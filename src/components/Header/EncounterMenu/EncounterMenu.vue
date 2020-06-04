@@ -25,6 +25,7 @@
 
 <script>
 import { AddTestCombatData } from "../../../lib/combatData";
+import { AddTestPrimaryPlayer } from "../../../lib/primaryPlayer";
 
 export default {
   name: "EncounterMenu",
@@ -66,6 +67,7 @@ export default {
       }
     },
     loadSampleData() {
+      AddTestPrimaryPlayer(this);
       AddTestCombatData(this);
     }
   }

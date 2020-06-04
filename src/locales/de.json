@@ -37,6 +37,7 @@
     "numbers": "Zahlenformat",
     "job-icons": "Job Icons",
     "percent-bar": "Prozentbalken",
+    "percent-bar-you": "Prozentbalken (SIE)",
     "percent-bar-role": "Prozentbalken (Rolle)",
     "advanced": "Fortgeschritten"
   },
@@ -65,6 +66,8 @@
     "include-jobless": "Arbeitslose einbeziehen",
     "always-show-splash": "Immer Willkommen zeigen",
     "show-discord": "DISCORD Info anzeigen",
+    "percent-bar-you": "Aktivieren Sie Ihre Balkenfarbe",
+    "percent-bar-color-you": "Ihre Balkenfarbe",
     "percent-bar-role": "Aktivieren Sie Balkenfarben nach Rolle",
     "percent-bar-color-tank": "Tank Balkenfarbe",
     "percent-bar-color-heal": "Healer Balkenfarbe",

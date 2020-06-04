@@ -147,11 +147,19 @@ export default {
         maxWidth: "28px",
         display: this.$store.state.settings._jobIconDisplay
       };
+    },
+    isPrimaryPlayer() {
+      return (
+        this.combatant.name === "YOU" ||
+        this.combatant.name === this.$store.state.settings.primaryPlayer
+      );
     }
   },
   methods: {
     getBarColor(role) {
-      if (this.$store.state.settings.percentBarRole) {
+      if (this.$store.state.settings.percentBarYou && this.isPrimaryPlayer) {
+        return this.$store.state.settings.percentBarColorYou;
+      } else if (this.$store.state.settings.percentBarRole) {
         if (role === DPS) {
           return this.$store.state.settings.percentBarColorDps;
         } else if (role === HEALER) {

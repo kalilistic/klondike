@@ -37,6 +37,7 @@
     "numbers": "数字格式",
     "job-icons": "工作图标",
     "percent-bar": "百分比条",
+    "percent-bar-you": "百分比条（YOU）",
     "percent-bar-role": "百分比条（角色）",
     "advanced": "高级"
   },
@@ -65,6 +66,8 @@
     "include-jobless": "包括失业",
     "always-show-splash": "一律显示欢迎词",
     "show-discord": "显示DISCORD信息",
+    "percent-bar-you": "启用条形颜色",
+    "percent-bar-color-you": "您的酒吧颜色",
     "percent-bar-role": "按角色启用条形颜色",
     "percent-bar-color-tank": "TANK酒吧颜色",
     "percent-bar-color-heal": "HEALER酒吧颜色",

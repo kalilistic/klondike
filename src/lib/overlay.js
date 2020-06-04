@@ -4,9 +4,10 @@
 
 import { parseCombatData } from "./combatData";
 import { log } from "./logger";
+import { parsePrimaryPlayer } from "./primaryPlayer";
 
 export async function addCombatDataListener(context) {
-  log("adding overlay listener");
+  log("adding combatData overlay listener");
   addOverlayListener("CombatData", data => {
     log("raw combatData", data);
     let combatData = parseCombatData(data);
@@ -17,6 +18,18 @@ export async function addCombatDataListener(context) {
     if (context.$router.currentRoute.path === "/") {
       context.$router.push("/encounter");
     }
+  });
+}
+
+export async function addPrimaryPlayerListener(context) {
+  log("adding primaryPlayer overlay listener");
+  addOverlayListener("ChangePrimaryPlayer", data => {
+    log("raw changePrimaryPlayer", data);
+    let primaryPlayer = parsePrimaryPlayer(data);
+    log("parsed primaryPlayer", primaryPlayer);
+    if (!primaryPlayer) return;
+    log("committing primaryPlayer");
+    context.$store.commit("updatePrimaryPlayer", primaryPlayer);
   });
 }
 
