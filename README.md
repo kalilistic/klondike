@@ -14,7 +14,7 @@
 
 klondike is a combat overlay for use with ACT for FFXIV. You can view your dps and other combat stats with a customizable and modern layout.
 
-## Demo
+## Preview
 
 ![image](img/demo.gif)
 
