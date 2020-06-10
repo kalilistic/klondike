@@ -47,7 +47,7 @@
     "background-color": "背景色",
     "font-color": "字体颜色",
     "name-style": "名称样式",
-    "style-limit-break": "LB样式",
+    "style-limit-break": "对LB名称生效",
     "blur-names": "模糊名称",
     "abbreviate-numbers": "缩略数字",
     "precision": "精确度",
