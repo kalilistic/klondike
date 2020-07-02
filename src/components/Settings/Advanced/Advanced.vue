@@ -8,21 +8,6 @@
       @change="settings.languageId = $event"
     />
     <Checkbox
-      label="settings.limit-break"
-      v-bind:initialCheckboxValue="settings.limitBreak"
-      @change="settings.limitBreak = $event"
-    />
-    <Checkbox
-      label="settings.include-pets"
-      v-bind:initialCheckboxValue="settings.includePets"
-      @change="settings.includePets = $event"
-    />
-    <Checkbox
-      label="settings.include-jobless"
-      v-bind:initialCheckboxValue="settings.includeJobless"
-      @change="settings.includeJobless = $event"
-    />
-    <Checkbox
       label="settings.always-show-splash"
       v-bind:initialCheckboxValue="settings.alwaysShowSplash"
       @change="settings.alwaysShowSplash = $event"
@@ -62,9 +47,6 @@ export default {
         languageId: this.$store.state.settings.languageId,
         backgroundColor: this.$store.state.settings.backgroundColor,
         fontColor: this.$store.state.settings.fontColor,
-        limitBreak: this.$store.state.settings.limitBreak,
-        includePets: this.$store.state.settings.includePets,
-        includeJobless: this.$store.state.settings.includeJobless,
         alwaysShowSplash: this.$store.state.settings.alwaysShowSplash,
         showDiscord: this.$store.state.settings.showDiscord,
         logging: this.$store.state.settings.logging

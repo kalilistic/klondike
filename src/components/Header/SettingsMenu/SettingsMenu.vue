@@ -32,6 +32,10 @@ export default {
         { title: this.$t("views.general-style"), path: "/settings/general" },
         { title: this.$t("views.names"), path: "/settings/names" },
         { title: this.$t("views.numbers"), path: "/settings/numbers" },
+        {
+          title: this.$t("views.player-details"),
+          path: "/settings/player-details"
+        },
         { title: this.$t("views.job-icons"), path: "/settings/job-icons" },
         { title: this.$t("views.percent-bar"), path: "/settings/percent-bar" },
         {

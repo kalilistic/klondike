@@ -9,6 +9,7 @@ import PercentBar from "../components/Settings/PercentBar/PercentBar";
 import Advanced from "../components/Settings/Advanced/Advanced";
 import PercentBarRole from "../components/Settings/PercentBarRole/PercentBarRole";
 import PercentBarYou from "../components/Settings/PercentBarYou/PercentBarYou";
+import PlayerDetails from "../components/Settings/PlayerDetails/PlayerDetails";
 
 const routes = [
   {
@@ -34,6 +35,10 @@ const routes = [
       {
         path: "numbers",
         component: Numbers
+      },
+      {
+        path: "player-details",
+        component: PlayerDetails
       },
       {
         path: "job-icons",
