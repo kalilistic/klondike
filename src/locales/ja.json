@@ -72,6 +72,7 @@
     "percent-bar-role": "役割ごとにバーの色を有効にする",
     "percent-bar-color-tank": "TANKバーの色",
     "percent-bar-color-heal": "HEALERバーの色",
-    "percent-bar-color-dps": "DPSバーの色"
+    "percent-bar-color-dps": "DPSバーの色",
+    "secondary-stat": "二次統計"
   }
 }

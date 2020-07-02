@@ -72,6 +72,7 @@
     "percent-bar-role": "Activer les couleurs des barres par rôle",
     "percent-bar-color-tank": "Couleur de barre Tank",
     "percent-bar-color-heal": "Couleur de barre Healer",
-    "percent-bar-color-dps": "Couleur de barre DPS"
+    "percent-bar-color-dps": "Couleur de barre DPS",
+    "secondary-stat": "Stat secondaire"
   }
 }

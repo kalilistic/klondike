@@ -72,6 +72,7 @@
     "percent-bar-role": "按角色启用百分比条颜色",
     "percent-bar-color-tank": "TANK百分比条颜色",
     "percent-bar-color-heal": "HEALER百分比条颜色",
-    "percent-bar-color-dps": "DPS百分比条颜色"
+    "percent-bar-color-dps": "DPS百分比条颜色",
+    "secondary-stat": "次要统计"
   }
 }

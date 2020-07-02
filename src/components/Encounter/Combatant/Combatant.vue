@@ -23,7 +23,7 @@
               <v-flex class="info-container">
                 <v-layout column class="right-info">
                   <v-flex>
-                    {{ dps }}
+                    {{ stats }}
                   </v-flex>
                 </v-layout>
               </v-flex>
@@ -59,6 +59,7 @@
 
 <script>
 import { DPS, HEALER, TANK } from "../../../constants/Roles";
+import store from "../../../store";
 
 export default {
   name: "Combatant",
@@ -120,8 +121,18 @@ export default {
     damage() {
       return this.combatant.damage;
     },
-    dps() {
-      return this.combatant.dps;
+    stats() {
+      if (
+        this.$store.state.settings.secondaryStat == null ||
+        this.$store.state.settings.secondaryStat === 0
+      ) {
+        return this.combatant.dps;
+      }
+      let secondaryStat = this.combatant[
+        store.getters.additionalStats[this.$store.state.settings.secondaryStat]
+          .prop
+      ];
+      return this.combatant.dps + " [" + secondaryStat + "]";
     },
     percentOverlayStyle() {
       return {

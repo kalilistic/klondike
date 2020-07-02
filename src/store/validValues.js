@@ -14,6 +14,9 @@ export const validValues = {
     decimalSeps: state => {
       return state.decimalSeps;
     },
+    additionalStats: state => {
+      return state.additionalStats;
+    },
     jobDetails: state => {
       return state.jobDetails;
     },
@@ -63,6 +66,16 @@ function loadValidValues() {
   state.decimalSeps = [
     { id: 0, name: "Period", sep: "." },
     { id: 1, name: "Comma", sep: "," }
+  ];
+  state.additionalStats = [
+    { id: 0, name: "None", prop: "" },
+    { id: 1, name: "DMG%", prop: "dmgPct" },
+    { id: 2, name: "CH%", prop: "chPct" },
+    { id: 3, name: "DH%", prop: "dhPct" },
+    { id: 4, name: "CDH%", prop: "cdhPct" },
+    { id: 5, name: "Heal%", prop: "healPct" },
+    { id: 6, name: "OvHeal%", prop: "overHealPct" },
+    { id: 7, name: "Deaths", prop: "deaths" }
   ];
   state.jobDetails = {
     AST: {

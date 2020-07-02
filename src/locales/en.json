@@ -72,6 +72,7 @@
     "percent-bar-role": "Enable Bar Colors by Role",
     "percent-bar-color-tank": "Tank Bar Color",
     "percent-bar-color-heal": "Healer Bar Color",
-    "percent-bar-color-dps": "DPS Bar Color"
+    "percent-bar-color-dps": "DPS Bar Color",
+    "secondary-stat": "Secondary Stat"
   }
 }

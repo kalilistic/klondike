@@ -72,6 +72,7 @@
     "percent-bar-role": "역할별로 막대 색상 사용",
     "percent-bar-color-tank": "TANK 바 색상",
     "percent-bar-color-heal": "HEALER 바 색상",
-    "percent-bar-color-dps": "DPS 바 색상"
+    "percent-bar-color-dps": "DPS 바 색상",
+    "secondary-stat": "보조 통계"
   }
 }

@@ -72,6 +72,7 @@
     "percent-bar-role": "Aktivieren Sie Balkenfarben nach Rolle",
     "percent-bar-color-tank": "Tank Balkenfarbe",
     "percent-bar-color-heal": "Healer Balkenfarbe",
-    "percent-bar-color-dps": "DPS Balkenfarbe"
+    "percent-bar-color-dps": "DPS Balkenfarbe",
+    "secondary-stat": "Sekundärstat"
   }
 }

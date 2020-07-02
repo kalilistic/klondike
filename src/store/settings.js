@@ -69,7 +69,8 @@ function initialState() {
     percentBarRole: false,
     percentBarColorTank: "#2d3a80",
     percentBarColorHeal: "#346624",
-    percentBarColorDps: "#732828"
+    percentBarColorDps: "#732828",
+    secondaryStat: 0
   };
   calcDerivedProps(state);
   updateDefaultPercentBarColor(state);
