@@ -16,7 +16,6 @@
     "dev": "vue-cli-service serve",
     "prod": "rimraf dist/* && npm run build && serve -s dist",
     "build": "vue-cli-service build",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {},
@@ -37,7 +36,6 @@
     "javascript-stringify": "^2.0.1",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "push-dir": "^0.4.1",
     "rimraf": "^3.0.2",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",

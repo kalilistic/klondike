@@ -5,7 +5,7 @@
 <h4 align="center">FFXIV ACT Combat Overlay</h4>
 
 <p align="center">
-  <a href="https://ci.appveyor.com/project/kalilistic/klondike/branch/master"><img src="https://img.shields.io/appveyor/ci/kalilistic/klondike"></a>
+  <a href="https://github.com/kalilistic/klondike"><img src="https://img.shields.io/website?down_color=red&down_message=down&label=overlay&up_color=brightgreen&up_message=up&url=https%3A%2F%2Fkalilistic.github.io%2Fklondike"></a>
   <a href="https://github.com/kalilistic/klondike/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kalilistic/klondike?color=lightgrey"></a>
   <a href="https://discord.gg/ftn4k7x"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg"></a>
 </p>
