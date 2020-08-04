@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "klondike"
+    "title": "克朗代克"
   },
   "default": {
     "waiting": "等待战斗数据...",
@@ -33,13 +33,13 @@
   },
   "views": {
     "general-style": "常规样式",
-    "names": "名称样式",
+    "names": "名称样式（国服无效）",
     "numbers": "数字格式",
-    "player-details": "球员详情",
+    "player-details": "玩家详情",
     "job-icons": "职业图标",
-    "percent-bar": "百分比条",
-    "percent-bar-you": "百分比条（YOU）",
-    "percent-bar-role": "百分比条（职能）",
+    "percent-bar": "计量条",
+    "percent-bar-you": "计量条（YOU）",
+    "percent-bar-role": "计量条（职能）",
     "advanced": "高级"
   },
   "settings": {
@@ -56,9 +56,9 @@
     "job-icon-size": "图标大小",
     "job-icon-color": "图标颜色",
     "blur-job-icons": "模糊图标",
-    "percent-bar": "启用百分比条",
-    "percent-bar-mode": "百分比条模式",
-    "percent-bar-color": "百分比条颜色",
+    "percent-bar": "启用计量条",
+    "percent-bar-mode": "计量条模式",
+    "percent-bar-color": "计量条颜色",
     "opacity": "不透明度",
     "logging": "启用记录",
     "digit-sep": "数字分隔符",
@@ -67,12 +67,12 @@
     "include-jobless": "包括获取不到职业的玩家",
     "always-show-splash": "总是显示欢迎词",
     "show-discord": "显示DISCORD信息",
-    "percent-bar-you": "启用百分比条颜色",
-    "percent-bar-color-you": "您的百分比条颜色",
-    "percent-bar-role": "按角色启用百分比条颜色",
-    "percent-bar-color-tank": "TANK百分比条颜色",
-    "percent-bar-color-heal": "HEALER百分比条颜色",
-    "percent-bar-color-dps": "DPS百分比条颜色",
+    "percent-bar-you": "启用计量条颜色",
+    "percent-bar-color-you": "您的计量条颜色",
+    "percent-bar-role": "按职能套用计量条颜色",
+    "percent-bar-color-tank": "坦克计量条颜色",
+    "percent-bar-color-heal": "治疗计量条颜色",
+    "percent-bar-color-dps": "DPS计量条颜色",
     "secondary-stat": "次要统计"
   }
 }
