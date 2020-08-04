@@ -41,9 +41,7 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
 ## How To Install
 
 1. Ensure your ACT, FFXIV ACT Plugin, and Overlay Plugin are up-to-date.
-2. Add a custom overlay as described <a href="https://github.com/FFXIV-ACT/setup-guide#custom-overlays">here</a> and use https://kalilistic.github.io/klondike as the URL.
-
-<img src="img/setup.png"></a>
+2. Select klondike from the overlay presets as described <a href="https://github.com/FFXIV-ACT/setup-guide#preset-overlays">here</a>.
 
 ## Troubleshooting
 * **The overlay won't open.**<br>
