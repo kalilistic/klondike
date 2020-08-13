@@ -66,7 +66,7 @@ function initialState() {
     primaryPlayer: String.empty,
     percentBarYou: false,
     percentBarColorYou: "#42126c",
-    percentBarRole: false,
+    percentBarRole: true,
     percentBarColorTank: "#2d3a80",
     percentBarColorHeal: "#346624",
     percentBarColorDps: "#732828",
