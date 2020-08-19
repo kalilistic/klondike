@@ -2,18 +2,18 @@
   <v-content class="default" :style="defaultStyle">
     <Splash class="default-section" v-show="showSplash" />
     <Waiting class="default-section" />
-    <Discord class="default-section" v-show="showDiscord" />
+    <Github class="default-section" v-show="showGithub" />
   </v-content>
 </template>
 
 <script>
 import Splash from "./Splash/Splash";
-import Discord from "./Discord/Discord";
+import Github from "./Github/Github";
 import SplashMessage from "../../constants/Splash";
 import Waiting from "./Waiting/Waiting";
 export default {
   name: "Default",
-  components: { Discord, Waiting, Splash },
+  components: { Github, Waiting, Splash },
   computed: {
     defaultStyle() {
       return {
@@ -31,8 +31,8 @@ export default {
       }
       return false;
     },
-    showDiscord() {
-      return this.$store.state.settings.showDiscord;
+    showGithub() {
+      return this.$store.state.settings.showGithub;
     }
   },
   methods: {

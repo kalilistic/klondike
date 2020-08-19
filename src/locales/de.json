@@ -5,7 +5,7 @@
   "default": {
     "waiting": "warten auf begegnung...",
     "questions": "fragen / ideen?",
-    "discord": "tritt dem zwietracht-server bei"
+    "github": "blick auf die github seite"
   },
   "encounter": {
     "duration": "Dauer: ",
@@ -66,7 +66,7 @@
     "include-pets": "Haustiere einschließen",
     "include-jobless": "Arbeitslose einbeziehen",
     "always-show-splash": "Immer Willkommen zeigen",
-    "show-discord": "DISCORD Info anzeigen",
+    "show-github": "GitHub Info anzeigen",
     "percent-bar-you": "Aktivieren Sie Ihre Balkenfarbe",
     "percent-bar-color-you": "Ihre Balkenfarbe",
     "percent-bar-role": "Aktivieren Sie Balkenfarben nach Rolle",

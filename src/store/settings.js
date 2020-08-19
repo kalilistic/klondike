@@ -62,7 +62,7 @@ function initialState() {
     includeJobless: false,
     alwaysShowSplash: false,
     latestSplashSeen: 0,
-    showDiscord: true,
+    showGithub: true,
     primaryPlayer: String.empty,
     percentBarYou: false,
     percentBarColorYou: "#42126c",

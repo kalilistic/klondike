@@ -5,7 +5,7 @@
   "default": {
     "waiting": "en attendant la rencontre...",
     "questions": "questions / idées?",
-    "discord": "ejoindre le serveur discord"
+    "github": "regardez la page github"
   },
   "encounter": {
     "duration": "durée: ",
@@ -66,7 +66,7 @@
     "include-pets": "Inclure les animaux",
     "include-jobless": "Inclure les chômeurs",
     "always-show-splash": "Toujours montrer la bienvenue",
-    "show-discord": "Afficher les informations DISCORD",
+    "show-github": "Afficher les informations GitHub",
     "percent-bar-you": "Activez la couleur de votre barre",
     "percent-bar-color-you": "Votre couleur de barre",
     "percent-bar-role": "Activer les couleurs des barres par rôle",

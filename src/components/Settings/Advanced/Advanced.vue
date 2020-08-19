@@ -13,9 +13,9 @@
       @change="settings.alwaysShowSplash = $event"
     />
     <Checkbox
-      label="settings.show-discord"
-      v-bind:initialCheckboxValue="settings.showDiscord"
-      @change="settings.showDiscord = $event"
+      label="settings.show-github"
+      v-bind:initialCheckboxValue="settings.showGithub"
+      @change="settings.showGithub = $event"
     />
     <Checkbox
       label="settings.logging"
@@ -48,7 +48,7 @@ export default {
         backgroundColor: this.$store.state.settings.backgroundColor,
         fontColor: this.$store.state.settings.fontColor,
         alwaysShowSplash: this.$store.state.settings.alwaysShowSplash,
-        showDiscord: this.$store.state.settings.showDiscord,
+        showGithub: this.$store.state.settings.showGithub,
         logging: this.$store.state.settings.logging
       },
       validValues: {

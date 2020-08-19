@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="questions feedback">{{ this.$t("default.questions") }}</div>
-    <div class="link feedback" :style="link" @click="openDiscord">
-      {{ this.$t("default.discord") }}
+    <div class="link feedback" :style="link" @click="openGithub">
+      {{ this.$t("default.github") }}
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Discord",
+  name: "Github",
   computed: {
     link() {
       return {
@@ -18,8 +18,8 @@ export default {
     }
   },
   methods: {
-    openDiscord() {
-      window.open("https://discord.gg/ftn4k7x", "_blank");
+    openGithub() {
+      window.open("https://github.com/kalilistic/klondike", "_blank");
     }
   }
 };

@@ -5,7 +5,7 @@
   "default": {
     "waiting": "waiting for encounter...",
     "questions": "questions / ideas?",
-    "discord": "join the discord server"
+    "github": "checkout the github page"
   },
   "encounter": {
     "duration": "Duration: ",
@@ -66,7 +66,7 @@
     "include-pets": "Include Pets",
     "include-jobless": "Include Jobless",
     "always-show-splash": "Always Show Splash",
-    "show-discord": "Show Discord Info",
+    "show-github": "Show GitHub Info",
     "percent-bar-you": "Enable Color for Your Bar",
     "percent-bar-color-you": "Your Bar Color",
     "percent-bar-role": "Enable Bar Colors by Role",

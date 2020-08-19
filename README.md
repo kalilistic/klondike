@@ -7,7 +7,6 @@
 <p align="center">
   <a href="https://kalilistic.github.io/klondike"><img src="https://img.shields.io/website?down_color=red&down_message=offline&label=overlay&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fkalilistic.github.io%2Fklondike"></a>
   <a href="https://github.com/kalilistic/klondike/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kalilistic/klondike?color=lightgrey"></a>
-  <a href="https://discord.gg/ftn4k7x"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg"></a>
 </p>
 
 ## Background
@@ -57,6 +56,6 @@ klondike is a combat overlay for use with ACT for FFXIV. You can view your dps a
   Review the <a href="https://gist.github.com/ngld/e2217563bbbe1750c0917217f136687d">ACT FAQ</a> and <a href="https://github.com/FFXIV-ACT/setup-guide#readme">ACT Setup Guide</a>.
 
 * **My problem isn't listed here.**<br>
-  Reach out on discord or raise a github issue.
+  Reach out on the <a href="https://discord.gg/ahFKcmx">ACT Discord</a> or <a href="https://github.com/kalilistic/klondike/issues">open an issue</a>.
   
   

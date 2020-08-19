@@ -5,7 +5,7 @@
   "default": {
     "waiting": "만남을 기다리는 중...",
     "questions": "질문 / 아이디어?",
-    "discord": "Discord 서버 가입"
+    "github": "github 페이지를보세요"
   },
   "encounter": {
     "duration": "기간 :",
@@ -66,7 +66,7 @@
     "include-pets": "애완 동물 포함",
     "include-jobless": "실업자 포함",
     "always-show-splash": "항상 환영 표시",
-    "show-discord": "DISCORD 정보 표시",
+    "show-github": "GITHUB 정보 표시",
     "percent-bar-you": "바 색상 활성화",
     "percent-bar-color-you": "바 색상",
     "percent-bar-role": "역할별로 막대 색상 사용",

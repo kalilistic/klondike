@@ -5,7 +5,7 @@
   "default": {
     "waiting": "等待战斗数据...",
     "questions": "问题/想法？",
-    "discord": "加入DISCORD聊天室"
+    "github": "看看github頁面"
   },
   "encounter": {
     "duration": "战斗时间: ",
@@ -66,7 +66,7 @@
     "include-pets": "包括宠物",
     "include-jobless": "包括获取不到职业的玩家",
     "always-show-splash": "总是显示欢迎词",
-    "show-discord": "显示DISCORD信息",
+    "show-github": "显示GITHUB信息",
     "percent-bar-you": "启用计量条颜色",
     "percent-bar-color-you": "您的计量条颜色",
     "percent-bar-role": "按职能套用计量条颜色",
