@@ -21,6 +21,7 @@
     "cdh-pct": "直爆%",
     "heal-pct": "治疗%",
     "over-heal-pct": "过量%",
+    "hps": "HPS",
     "deaths": "死亡"
   },
   "actions": {

@@ -95,6 +95,10 @@ export default {
           value: this.combatant.overHealPct
         },
         {
+          title: this.$t("combatant.hps"),
+          value: this.combatant.hps
+        },
+        {
           title: this.$t("combatant.deaths"),
           value: this.combatant.deaths
         }

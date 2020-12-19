@@ -41,6 +41,7 @@ export function parseCombatData(combatDataIn) {
       job: combatant.Job.toUpperCase(),
       _dps: dps.sanitized,
       dps: dps.formatted,
+      hps: processFloat(combatant.enchps).formatted,
       dmgPct: combatant["damage%"],
       chPct: combatant["crithit%"],
       dhPct: combatant["DirectHitPct"],

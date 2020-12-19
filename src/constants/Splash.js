@@ -1,6 +1,6 @@
 let SplashMessage = {
-  version: 4,
-  title: "minor updates",
-  messages: ["any new ideas? let me know on github!"]
+  version: 5,
+  title: "new stat",
+  messages: ["added hps to player popup per request"]
 };
 export default SplashMessage;

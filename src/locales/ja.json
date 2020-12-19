@@ -21,6 +21,7 @@
     "cdh-pct": "CDH%",
     "heal-pct": "Heal%",
     "over-heal-pct": "OvHeal%",
+    "hps": "HPS",
     "deaths": "死"
   },
   "actions": {
