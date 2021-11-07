@@ -3,7 +3,7 @@ import store from "../store";
 import { formatName, formatPetName, isPet } from "./names";
 import { processFloat, processInteger } from "./numbers";
 import { log } from "./logger";
-import { LMB, MIS, MOB, PET } from "../constants/Jobs";
+import { LMB, MIS, MOB, PET } from "@/constants/Jobs";
 
 export function AddTestCombatData(context) {
   context.$store.commit("updateCombatData", parseCombatData(TestCombatData));
@@ -48,6 +48,7 @@ export function parseCombatData(combatDataIn) {
       cdhPct: combatant["CritDirectHitPct"],
       healPct: combatant["healed%"],
       overHealPct: combatant["OverHealPct"],
+      maxHit: combatant["MAXHIT-*"],
       deaths: combatant["deaths"]
     };
     if (newCombatant.job === "") {

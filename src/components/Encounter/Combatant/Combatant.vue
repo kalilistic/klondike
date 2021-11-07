@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import { DPS, HEALER, TANK } from "../../../constants/Roles";
+import { DPS, HEALER, TANK } from "@/constants/Roles";
 import store from "../../../store";
 
 export default {
@@ -97,6 +97,10 @@ export default {
         {
           title: this.$t("combatant.hps"),
           value: this.combatant.hps
+        },
+        {
+          title: this.$t("combatant.max-hit"),
+          value: this.combatant.maxHit
         },
         {
           title: this.$t("combatant.deaths"),

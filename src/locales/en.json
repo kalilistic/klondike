@@ -22,6 +22,7 @@
     "heal-pct": "Heal%",
     "over-heal-pct": "OvHeal%",
     "hps": "HPS",
+    "max-hit": "MaxHit",
     "deaths": "Deaths"
   },
   "actions": {
