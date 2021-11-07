@@ -73,9 +73,10 @@ function loadValidValues() {
     { id: 2, name: "CH%", prop: "chPct" },
     { id: 3, name: "DH%", prop: "dhPct" },
     { id: 4, name: "CDH%", prop: "cdhPct" },
-    { id: 5, name: "Heal%", prop: "healPct" },
-    { id: 6, name: "OvHeal%", prop: "overHealPct" },
-    { id: 7, name: "Deaths", prop: "deaths" }
+    { id: 5, name: "HPS", prop: "hps" },
+    { id: 6, name: "Heal%", prop: "healPct" },
+    { id: 7, name: "OvHeal%", prop: "overHealPct" },
+    { id: 8, name: "Deaths", prop: "deaths" }
   ];
   state.jobDetails = {
     AST: {
