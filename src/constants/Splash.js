@@ -1,11 +1,6 @@
 let SplashMessage = {
-  version: 6,
-  title: "enjoy expac launch!",
-  messages: [
-    "- feat: select MaxHit as secondary stat.",
-    "- fix: select HPS as secondary stat.",
-    "- fix: marauder shows correctly as blue (tank).",
-    "- chore: easier updates with gh actions."
-  ]
+  version: 7,
+  title: "May your queues be short",
+  messages: ["Added Sage and Reaper."]
 };
 export default SplashMessage;

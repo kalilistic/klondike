@@ -424,10 +424,10 @@ let TestCombatData = {
       damageShield: "0",
       absorbHeal: "57117"
     },
-    "Anna Pavlova": {
+    "George Lass": {
       n: "\n",
       t: "\t",
-      name: "Anna Pavlova",
+      name: "George Lass",
       duration: "06:42",
       DURATION: "402",
       damage: "5352119",
@@ -499,7 +499,7 @@ let TestCombatData = {
       Last10DPS: "6008",
       Last30DPS: "11035",
       Last60DPS: "9846",
-      Job: "Dnc",
+      Job: "Rpr",
       ParryPct: "0%",
       BlockPct: "0%",
       IncToHit: "71.88",
@@ -763,7 +763,7 @@ let TestCombatData = {
       Last10DPS: "6401",
       Last30DPS: "6625",
       Last60DPS: "8395",
-      Job: "Ast",
+      Job: "Sge",
       ParryPct: "0%",
       BlockPct: "0%",
       IncToHit: "73.68",
