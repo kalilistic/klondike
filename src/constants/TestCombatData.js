@@ -336,10 +336,10 @@ let TestCombatData = {
       damageShield: "0",
       absorbHeal: "21277"
     },
-    "Praetor Fenix": {
+    "Nagini Riddle": {
       n: "\n",
       t: "\t",
-      name: "Praetor Fenix",
+      name: "Nagini Riddle",
       duration: "06:41",
       DURATION: "401",
       damage: "6142748",
@@ -411,7 +411,7 @@ let TestCombatData = {
       Last10DPS: "31110",
       Last30DPS: "21680",
       Last60DPS: "19212",
-      Job: "Drg",
+      Job: "Vpr",
       ParryPct: "0%",
       BlockPct: "0%",
       IncToHit: "77.14",

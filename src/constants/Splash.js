@@ -1,6 +1,6 @@
 let SplashMessage = {
-  version: 7,
-  title: "May your queues be short",
-  messages: ["Added Sage and Reaper."]
+  version: 8,
+  title: "Enjoy Dawntrail!",
+  messages: ["Added Viper and Pictomancer (thanks mally)."]
 };
 export default SplashMessage;
